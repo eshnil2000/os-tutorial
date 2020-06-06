@@ -1,3 +1,13 @@
+** Install
+`docker pull gcc`
+`git pull https://github.com/travisg/toolchains`
+`./doit -f -a "i386" `
+`apt-get update -y
+`apt-get install qemu-system -y`
+
+
+
+
 *Concepts you may want to Google beforehand: cross-compiler*
 
 **Goal: Create a development environment to build your kernel**

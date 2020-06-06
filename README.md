@@ -1,3 +1,13 @@
+
+#### Instructions
+- To kill process:
+`ps -ef |grep curses |awk '{print $2}'| xargs kill -9`
+- To run binary
+`qemu-system-x86_64 --curses boot_sect_simple.bin`
+- To compile 
+`nasm boot_sect_simple.asm -f bin -o boot_sect_simple.bin`
+
+
 os-tutorial
 ===========
 
