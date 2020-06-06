@@ -7,6 +7,12 @@
 - To compile 
 `nasm boot_sect_simple.asm -f bin -o boot_sect_simple.bin`
 
+** Install x-compilers
+`docker pull gcc`
+`git pull https://github.com/travisg/toolchains`
+`./doit -f -a "i386" `
+`apt-get update -y
+`apt-get install qemu-system -y`
 
 os-tutorial
 ===========
